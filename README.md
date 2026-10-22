@@ -126,4 +126,4 @@ The digital gallery highlights the nuanced distinctions between classical Maghre
 ## 👥 Credits
 
 - **Master Calligrapher & Instructor:** [إبراهيم حسني إدريسي](https://hassanicalligraphy.com) (Ibrahim Hassani Idrissi), Fes, Morocco.
-- **System Architecture & Development:** [خالد بنجلون](https://benjelloun.dev) (Khalid Benjelloun).
+- **System Architecture & Development:** Built by [خالد بنجلون](https://benjelloun.dev) (Khalid Benjelloun) with [Google Antigravity](https://github.com/google).
