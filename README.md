@@ -6,7 +6,7 @@
 
 [![Live Website](https://img.shields.io/badge/Live%20Platform-hassanicalligraphy.com-10b981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hassanicalligraphy.com/)
 [![React / Vite](https://img.shields.io/badge/Frontend-React%20%7C%20Vite%20%7C%20Tailwind-61dafb?style=for-the-badge&logo=react&logoColor=black)](https://vitejs.dev)
-[![Replit SSH](https://img.shields.io/badge/Cloud%20IDE-Replit%20SSH%20%2B%20Claude%20%26%20Antigravity-F26207?style=for-the-badge&logo=replit&logoColor=white)](https://hassanicalligraphy.com/)
+[![Replit](https://img.shields.io/badge/Platform-Replit%20(Claude%20%26%20Antigravity%20via%20SSH)-F26207?style=for-the-badge&logo=replit&logoColor=white)](https://hassanicalligraphy.com/)
 [![Typography](https://img.shields.io/badge/Typography-Traditional%20Maghrebi%20RTL-orange?style=for-the-badge)](https://hassanicalligraphy.com/)
 
 [**🌐 Live Production Platform (hassanicalligraphy.com)**](https://hassanicalligraphy.com/)
@@ -25,12 +25,12 @@ The platform serves two primary goals:
 
 ---
 
-## 🛠️ Cloud-to-Workstation Engineering Workflow (Replit SSH + Claude & Antigravity)
+## 🛠️ Engineering Workflow (Replit + Claude Code & Antigravity Connected via Replit SSH)
 
-This client project is engineered and maintained using a **hybrid cloud-container + local Linux workstation architecture**:
+This client project is built and hosted on **Replit**, with **Claude Code** and **Google Antigravity** connected directly to the Replit project workspace over **Replit SSH**:
 
-- **Remote Replit Development Container over SSH**: The full-stack source workspace runs inside a dedicated Replit container connected directly to the local Linux workstation via SSH (`*.replit.dev:22`).
-- **Multi-Agent Orchestration (Claude Code & Google Antigravity)**: Rather than relying on browser-based cloud editors, development, multilingual RTL layout refinement (`AR` / `EN` / `FR`), lazy-loaded section splitting, and performance tuning are steered directly from the Linux workstation over SSH using **Claude Code** and **Google Antigravity** (and mobile-steered via [`workstation-discord-bridge`](https://github.com/kmbenjel/workstation-discord-bridge)).
+- **Replit Project Environment**: The full-stack source project and deployment environment run on Replit.
+- **Claude Code & Google Antigravity via Replit SSH**: Both **Claude Code** and **Google Antigravity** connect directly to the live Replit project container via SSH (`*.replit.dev:22`), enabling full local-workstation and mobile agent steering (via [`workstation-discord-bridge`](https://github.com/kmbenjel/workstation-discord-bridge)) without being restricted to Replit's browser/mobile editor.
 - **Production Bundle & Showcase Repository**: This repository (`kmbenjel/hassanicalligraphy.com`) houses the compiled Vite + React + Tailwind production assets (`public/assets/`, `public/images/`), architecture documentation, and visual showcase of the live platform at [`hassanicalligraphy.com`](https://hassanicalligraphy.com/).
 
 ---
@@ -143,4 +143,4 @@ The digital gallery highlights the nuanced distinctions between classical Maghre
 ## 👥 Credits
 
 - **Master Calligrapher & Instructor:** [إبراهيم حسني إدريسي](https://hassanicalligraphy.com) (Ibrahim Hassani Idrissi), Fes, Morocco.
-- **System Architecture & Full-Stack Development:** Built by [خالد بنجلون](https://benjelloun.dev) (Khalid Benjelloun) using Replit SSH, Claude Code, and [Google Antigravity](https://github.com/google).
+- **System Architecture & Full-Stack Development:** Built by [خالد بنجلون](https://benjelloun.dev) (Khalid Benjelloun) on Replit, using Claude Code and [Google Antigravity](https://github.com/google) connected to the Replit project via SSH.
